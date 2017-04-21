@@ -41,6 +41,9 @@ only screen and (min-width: 700px) and (orientation: landscape) {
 }
 
 @media only screen and (min-width: 1024px) {
+    #body-mask{
+        height: 
+    }
     section {
         height: 1178px;
     }
@@ -86,7 +89,7 @@ only screen and (min-width: 700px) and (orientation: landscape) {
     background-image: url(../imgs/people-mover-shop.png);
     background-repeat: no-repeat;
     background-size: 100% 35px;
-        bottom: 66.8%;
+        bottom: 64.9%;
     width: 30%;
     height: 40px;
 /*    border: 2px solid red;*/

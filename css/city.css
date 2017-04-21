@@ -8,7 +8,7 @@ body {
     position: fixed;
     background-image: url(../imgs/night-sky.png);
     background-repeat: no-repeat;
-    background-size: 100% 86%;
+    background-size: 100% 87%;
     width: 100%;
     height: 50% !important;
     /* border: 2px solid red; */
@@ -61,7 +61,7 @@ body {
     height: 69px;
     /* border: 2px solid red; */
     left: 0;
-    top: 43%;
+    top: 43.2%;
     z-index: 200;
 }
 
