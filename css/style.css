@@ -4,28 +4,18 @@
 }
 
 body {
-    background-color: darkslategray !important;
-    /*    background-image: url(../imgs/free-code-image.jpg);*/
-    background-size: 100% 941px;
-    background-repeat: no-repeat;
+    background-color: #32563d !important;
 }
 
-#body-mask {
-    position: absolute;
-    width: 100%;
-    height: 844px;
-    /*    border: 2px solid red;*/
-    background-color: black;
-    top: 97px;
-    opacity: .7;
-}
 
 .jumbotron {
-    position: fixed;
-    width: 100%;
+    position: absolute;
+    width: 50%;
     top: 0px;
-    height: 110px !important;
-    background-color: #0e1818!important;
+    left: 23%;
+    height: 2016px !important;
+    background-color: transparent !important;
+    /*        background-color: darkslateblue!important;*/
     z-index: 100;
 }
 
@@ -33,9 +23,10 @@ body {
     position: relative;
     width: 100px;
     height: 100px;
-    left: 196px;
+    left: -46px;
     /* border: 2px solid red; */
     top: -43px;
+    z-index: 100;
 }
 
 #banner {
@@ -52,8 +43,8 @@ body {
     width: 485px;
     height: 81px;
     /*    border: 2px solid red;*/
-    top: 650px;
-    left: 38%;
+    top: 590px;
+    left: 25%;
     z-index: 100;
 }
 
@@ -86,37 +77,12 @@ body {
     box-shadow: 0 0 5px 2px darkgreen;
 }
 
-#down-arrow {
-    position: absolute;
-
-/*
-    background-image: url(../imgs/down-arrow-2.png);
-    background-size: 132px auto;
-    background-repeat: no-repeat;
-*/
-
-    top: 810px;
-    left: 886px;
-    width: 132px;
-    height: auto;
-    z-index: 100;
-}
-
-
-/*
-#down-arrow:hover{
-    background-image: url(../imgs/down-arrow-3.png);
-        background-size: cover;
-    background-repeat: no-repeat;
-}
-*/
-
 #navigation {
     position: relative;
-    left: 607px;
+    left: 230px;
     width: 490px;
     height: 50px;
-    /*    border: 2px solid green;*/
+    /* border: 2px solid green; */
     bottom: 108px;
 }
 
@@ -136,7 +102,7 @@ li {
 
 h3 {
     text-align: center;
-        color: #368cb7 !important;
+    color: #368cb7 !important;
 }
 
 img {
@@ -145,47 +111,54 @@ img {
     top: 20px;
 }
 
-hr {
-    background-color: red;
-}
-
 #bottom {
     position: relative;
-    top: -22px;
+    bottom: 15px;
     border: 1px solid #665496;
-  
+}
+
+#below-bottom {
+    position: relative;
+    bottom: 100px;
+    border: 1px solid #665496;
+    left: 0px;
+    width: 100%;
+}
+
+#article-section {
+    position: relative;
+/*    border: 2px solid red;*/
+    width: 100%;
+    height: 186px;
+    bottom: 7px;
 }
 
 #location {
     position: relative;
     border: 2px solid transparent;
-    border-bottom-color: rgba(252, 251, 13, 0.28);
+    /* border-bottom-color: rgb(102, 84, 150); */
     width: 100%;
     float: left;
     height: 133px;
-    top: -20px;
+    bottom: 54px !important;
     padding: 10px;
     text-align: center;
-     
     margin-bottom: 50px;
 }
 
 #location p {
-    color:whitesmoke;
-    font-size: 20px;
-    
+    color: whitesmoke;
+    font-size: 12px;
 }
-    
 
 section {
-    position: relative;
-    display: flex;
+    position: absolute;
+    /* display: flex; */
     width: 90%;
-    min-height: auto;
-    /*    background-image: url(../imgs/free-code-image.jpg);*/
-    background-size: cover;
-    background-repeat: no-repeat;
-    top: 960px;
+    height: 1870px;
+    /* border: 2px solid yellow; */
+    top: 65%;
+    left: 5%;
 }
 
 .row {
@@ -194,23 +167,28 @@ section {
     width: 90%;
     min-height: auto;
     margin: 10px;
-    left: 6%;
+    left: 10%;
 }
 
 .thumbnail {
-    height: 463px;
+    height: 439px;
     background-color: transparent!important;
+    /*    border: 2px solid transparent;*/
 }
 
 .thumbnail p {
     color: whitesmoke;
 }
 
+.caption p {
+    font-size: 16px;
+}
+
 #googleMap {
     position: relative;
     width: 100%;
-    height: 337px;
-    top: -45px;
+    height: 247px;
+    bottom: 90px;
     padding-bottom: 2px;
 }
 
@@ -225,15 +203,17 @@ footer {
     position: fixed;
     width: 100%;
     min-height: 33px;
-    top: 941px;
-    /* border: 2px solid red; */
+    bottom: 0;
+    /*     border: 2px solid red; */
     left: 0;
-    background-color: darkslategray;
+    text-align: center;
+    background-color: #32563d;
+    z-index: 100;
 }
 
 copyright {
     position: relative;
-    top: 7px;
-    left: 854px;
+    top: 7px !important;
+    left: 0;
     color: whitesmoke !important;
 }

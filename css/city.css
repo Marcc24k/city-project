@@ -1,0 +1,253 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    z-index: 149;
+}
+
+#body-mask {
+    position: fixed;
+    background-image: url(../imgs/night-sky.png);
+    background-repeat: no-repeat;
+    background-size: 100% 86%;
+    width: 100%;
+    height: 50% !important;
+    /* border: 2px solid red; */
+    background-color: rgb(5, 2, 13);
+    top: 0px;
+    opacity: 1;
+    z-index: 100;
+}
+
+#city {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    /* border: 2px solid red; */
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+#building {
+    position: relative;
+    width: 100%;
+    height: 669px;
+    /* border: 2px solid orange; */
+    top: 118px;
+}
+
+
+/*
+#billboard {
+    position: relative;
+    background-image: url(../imgs/billboard.png);
+    background-repeat: no-repeat;
+    background-size: 312px 225px;
+    width: 100%;
+    height: 229px;
+    border: 2px solid red;
+    left: 0;
+    top: 42px;
+    z-index: 210;
+}
+*/
+
+#sidewalk {
+    position: fixed;
+    background-image: url(../imgs/sidewalk-shop.png);
+    background-repeat: no-repeat;
+    background-size: 100% 65px;
+    width: 100%;
+    height: 69px;
+    /* border: 2px solid red; */
+    left: 0;
+    top: 43%;
+    z-index: 200;
+}
+
+#street-light-on {
+    position: fixed;
+    background-image: url(../imgs/street-light-on.png);
+    background-repeat: no-repeat;
+    background-size: 20px 50px;
+    width: 5%;
+    height: 69px;
+    /* border: 2px solid red; */
+    left: 15%;
+    bottom: 52%;
+    z-index: 202;
+}
+
+#street-light-on-two {
+    position: fixed;
+    background-image: url(../imgs/street-light-on.png);
+    background-repeat: no-repeat;
+    background-size: 20px 50px;
+    width: 5%;
+    height: 69px;
+    /* border: 2px solid red; */
+    left: 37%;
+    bottom: 52%;
+    z-index: 202;
+}
+
+#street-light-on-three {
+    position: fixed;
+    background-image: url(../imgs/street-light-on.png);
+    background-repeat: no-repeat;
+    background-size: 20px 50px;
+    width: 5%;
+    height: 69px;
+    /* border: 2px solid red; */
+    left: 62%;
+    bottom: 52%;
+    z-index: 202;
+}
+
+#street-light-on-four {
+    position: fixed;
+    background-image: url(../imgs/street-light-on.png);
+    background-repeat: no-repeat;
+    background-size: 20px 50px;
+    width: 5%;
+    height: 69px;
+    /* border: 2px solid red; */
+    left: 82%;
+    bottom: 52%;
+    z-index: 202;
+}
+
+
+/*BUILDINGS*/
+
+#building-one {
+    position: relative;
+    background-image: url(../imgs/building-one-shop.png);
+    background-repeat: no-repeat;
+    background-size: 108px 665px;
+    width: 113px;
+    height: 669px;
+    /* border: 2px solid red; */
+    left: -80px;
+    top: 0;
+    z-index: 200;
+}
+
+#brick-building {
+    position: fixed;
+    background-image: url(../imgs/brick-building-green.png);
+    background-repeat: no-repeat;
+    background-size: 95px 145px;
+    width: 96px;
+    height: 146px;
+    /* border: 2px solid red; */
+    left: 178px;
+    bottom: 56.9%;
+    z-index: 201;
+}
+
+#newspaper {
+    position: relative;
+    background-image: url(../imgs/newspaper-shop-chop.png);
+    background-repeat: no-repeat;
+    background-size: 9px 17px;
+    width: 13px;
+    height: 22px;
+    /* border: 2px solid red; */
+    left: -12px;
+    top: -566px;
+    z-index: 200;
+}
+
+#westin {
+    position: absolute;
+    left: 1404px;
+    top: 682px;
+    z-index: 201;
+}
+
+#people-mover {
+    position: fixed;
+    left: 1040px;
+    /*    top: 521px;*/
+    z-index: 201;
+    /* background-size: 720px 200px; */
+    width: 500px;
+    height: 51px;
+    -webkit-animation-name: people-mover;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 50s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate;
+    /* Safari 4.0 - 8.0 */
+    animation-name: people-mover;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes people-mover {
+    0% {
+        left: 0px;
+    }
+    25% {
+        left: 70%;
+    }
+    50% {
+        left: 70%;
+    }
+    75% {
+        left: 0px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes people-mover {
+    0% {
+        left: 0px;
+    }
+    25% {
+        left: 70%;
+    }
+    50% {
+        left: 70%;
+    }
+    75% {
+        left: 0px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+#people-mover-station {
+    position: absolute;
+    width: 550px;
+    height: 200px;
+    background-color: darkslategrey;
+    border: 2px solid black;
+    /*    top: 375px;*/
+    z-index: 202;
+    opacity: .;
+}
+
+#people-mover-track {
+    position: fixed;
+    left: 0;
+    /*    top: 572px;*/
+    z-index: 201;
+    /* background-size: 720px 200px; */
+    width: 100%;
+    height: 350px;
+    /*    border: 2px solid red;*/
+}
